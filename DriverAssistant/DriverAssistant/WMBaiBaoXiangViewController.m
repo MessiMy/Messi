@@ -1,28 +1,23 @@
 //
-//  ViewController.m
+//  WMBaiBaoXiangViewController.m
 //  DriverAssistant
 //
-//  Created by 梅毅 on 16/10/28.
+//  Created by 梅毅 on 16/10/29.
 //  Copyright © 2016年 my. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WMBaiBaoXiangViewController.h"
 
-@interface ViewController ()
+@interface WMBaiBaoXiangViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WMBaiBaoXiangViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Do any additional setup after loading the view from its nib.
 }
-- (IBAction)tr:(id)sender
-{
-    NSLog(@"二手车");
-}
-
 -(IBAction)buttonClicked:(UIButton *)sender
 {
     switch (sender.tag) {
@@ -111,10 +106,11 @@
             break;
     }
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
+    // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

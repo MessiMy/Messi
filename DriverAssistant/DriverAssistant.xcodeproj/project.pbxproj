@@ -7,27 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4BACB91DC6CD1B007F2AC6 /* FxButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4BACB81DC6CD1B007F2AC6 /* FxButtonHelper.m */; };
+		0F5155D11DC828B7004D106E /* JiaXiaoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5155CF1DC828B7004D106E /* JiaXiaoCell.m */; };
+		0F5155D21DC828B7004D106E /* JiaXiaoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5155D01DC828B7004D106E /* JiaXiaoCell.xib */; };
+		0F5155F91DC8623D004D106E /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5155F71DC8623D004D106E /* UserViewController.m */; };
+		0F5155FA1DC8623D004D106E /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5155F81DC8623D004D106E /* UserViewController.xib */; };
+		0F5155FE1DC87B83004D106E /* ClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5155FC1DC87B83004D106E /* ClassCell.m */; };
+		0F5155FF1DC87B83004D106E /* ClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5155FD1DC87B83004D106E /* ClassCell.xib */; };
 		0F6A5FC41DC33AD500B43CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A5FC31DC33AD500B43CC6 /* main.m */; };
 		0F6A5FC71DC33AD500B43CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A5FC61DC33AD500B43CC6 /* AppDelegate.m */; };
 		0F6A5FCA1DC33AD500B43CC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A5FC91DC33AD500B43CC6 /* ViewController.m */; };
-		0F6A5FCD1DC33AD500B43CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A5FCB1DC33AD500B43CC6 /* Main.storyboard */; };
 		0F6A5FCF1DC33AD500B43CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A5FCE1DC33AD500B43CC6 /* Assets.xcassets */; };
 		0F6A5FD21DC33AD500B43CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A5FD01DC33AD500B43CC6 /* LaunchScreen.storyboard */; };
 		0F6A5FDA1DC3484B00B43CC6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A5FD91DC3484B00B43CC6 /* ViewController.xib */; };
+		0F7F31E91DC4381E00C88446 /* WMBaiBaoXiangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F31E71DC4381E00C88446 /* WMBaiBaoXiangViewController.m */; };
+		0F7F31EA1DC4381E00C88446 /* WMBaiBaoXiangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F31E81DC4381E00C88446 /* WMBaiBaoXiangViewController.xib */; };
+		0F7F31ED1DC4929B00C88446 /* WMBaoMingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F31EC1DC4929B00C88446 /* WMBaoMingViewController.m */; };
+		0F7F31EF1DC492D300C88446 /* WMBaoMingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F31EE1DC492D300C88446 /* WMBaoMingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4BACB71DC6CD1B007F2AC6 /* FxButtonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxButtonHelper.h; sourceTree = "<group>"; };
+		0F4BACB81DC6CD1B007F2AC6 /* FxButtonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxButtonHelper.m; sourceTree = "<group>"; };
+		0F5155CE1DC828B7004D106E /* JiaXiaoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiaXiaoCell.h; sourceTree = "<group>"; };
+		0F5155CF1DC828B7004D106E /* JiaXiaoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiaXiaoCell.m; sourceTree = "<group>"; };
+		0F5155D01DC828B7004D106E /* JiaXiaoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JiaXiaoCell.xib; sourceTree = "<group>"; };
+		0F5155F61DC8623D004D106E /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		0F5155F71DC8623D004D106E /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		0F5155F81DC8623D004D106E /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		0F5155FB1DC87B83004D106E /* ClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassCell.h; sourceTree = "<group>"; };
+		0F5155FC1DC87B83004D106E /* ClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCell.m; sourceTree = "<group>"; };
+		0F5155FD1DC87B83004D106E /* ClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCell.xib; sourceTree = "<group>"; };
 		0F6A5FBF1DC33AD500B43CC6 /* DriverAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6A5FC31DC33AD500B43CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F6A5FC51DC33AD500B43CC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F6A5FC61DC33AD500B43CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0F6A5FC81DC33AD500B43CC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F6A5FC91DC33AD500B43CC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F6A5FCC1DC33AD500B43CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F6A5FCE1DC33AD500B43CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F6A5FD11DC33AD500B43CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F6A5FD31DC33AD500B43CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F6A5FD91DC3484B00B43CC6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0F7F31E61DC4381E00C88446 /* WMBaiBaoXiangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBaiBaoXiangViewController.h; sourceTree = "<group>"; };
+		0F7F31E71DC4381E00C88446 /* WMBaiBaoXiangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBaiBaoXiangViewController.m; sourceTree = "<group>"; };
+		0F7F31E81DC4381E00C88446 /* WMBaiBaoXiangViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMBaiBaoXiangViewController.xib; sourceTree = "<group>"; };
+		0F7F31EB1DC4929B00C88446 /* WMBaoMingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBaoMingViewController.h; sourceTree = "<group>"; };
+		0F7F31EC1DC4929B00C88446 /* WMBaoMingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBaoMingViewController.m; sourceTree = "<group>"; };
+		0F7F31EE1DC492D300C88446 /* WMBaoMingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMBaoMingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +91,23 @@
 				0F6A5FC81DC33AD500B43CC6 /* ViewController.h */,
 				0F6A5FC91DC33AD500B43CC6 /* ViewController.m */,
 				0F6A5FD91DC3484B00B43CC6 /* ViewController.xib */,
-				0F6A5FCB1DC33AD500B43CC6 /* Main.storyboard */,
+				0F7F31E61DC4381E00C88446 /* WMBaiBaoXiangViewController.h */,
+				0F7F31E71DC4381E00C88446 /* WMBaiBaoXiangViewController.m */,
+				0F7F31E81DC4381E00C88446 /* WMBaiBaoXiangViewController.xib */,
+				0F7F31EB1DC4929B00C88446 /* WMBaoMingViewController.h */,
+				0F7F31EC1DC4929B00C88446 /* WMBaoMingViewController.m */,
+				0F7F31EE1DC492D300C88446 /* WMBaoMingViewController.xib */,
+				0F5155CE1DC828B7004D106E /* JiaXiaoCell.h */,
+				0F5155CF1DC828B7004D106E /* JiaXiaoCell.m */,
+				0F5155D01DC828B7004D106E /* JiaXiaoCell.xib */,
+				0F5155FB1DC87B83004D106E /* ClassCell.h */,
+				0F5155FC1DC87B83004D106E /* ClassCell.m */,
+				0F5155FD1DC87B83004D106E /* ClassCell.xib */,
+				0F5155F61DC8623D004D106E /* UserViewController.h */,
+				0F5155F71DC8623D004D106E /* UserViewController.m */,
+				0F5155F81DC8623D004D106E /* UserViewController.xib */,
+				0F4BACB71DC6CD1B007F2AC6 /* FxButtonHelper.h */,
+				0F4BACB81DC6CD1B007F2AC6 /* FxButtonHelper.m */,
 				0F6A5FCE1DC33AD500B43CC6 /* Assets.xcassets */,
 				0F6A5FD01DC33AD500B43CC6 /* LaunchScreen.storyboard */,
 				0F6A5FD31DC33AD500B43CC6 /* Info.plist */,
@@ -139,10 +181,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5155FA1DC8623D004D106E /* UserViewController.xib in Resources */,
+				0F7F31EF1DC492D300C88446 /* WMBaoMingViewController.xib in Resources */,
+				0F5155D21DC828B7004D106E /* JiaXiaoCell.xib in Resources */,
 				0F6A5FD21DC33AD500B43CC6 /* LaunchScreen.storyboard in Resources */,
+				0F5155FF1DC87B83004D106E /* ClassCell.xib in Resources */,
 				0F6A5FCF1DC33AD500B43CC6 /* Assets.xcassets in Resources */,
+				0F7F31EA1DC4381E00C88446 /* WMBaiBaoXiangViewController.xib in Resources */,
 				0F6A5FDA1DC3484B00B43CC6 /* ViewController.xib in Resources */,
-				0F6A5FCD1DC33AD500B43CC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5155FE1DC87B83004D106E /* ClassCell.m in Sources */,
+				0F7F31E91DC4381E00C88446 /* WMBaiBaoXiangViewController.m in Sources */,
+				0F4BACB91DC6CD1B007F2AC6 /* FxButtonHelper.m in Sources */,
 				0F6A5FCA1DC33AD500B43CC6 /* ViewController.m in Sources */,
 				0F6A5FC71DC33AD500B43CC6 /* AppDelegate.m in Sources */,
+				0F7F31ED1DC4929B00C88446 /* WMBaoMingViewController.m in Sources */,
+				0F5155F91DC8623D004D106E /* UserViewController.m in Sources */,
+				0F5155D11DC828B7004D106E /* JiaXiaoCell.m in Sources */,
 				0F6A5FC41DC33AD500B43CC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,14 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0F6A5FCB1DC33AD500B43CC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F6A5FCC1DC33AD500B43CC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F6A5FD01DC33AD500B43CC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -273,6 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my..DriverAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -284,6 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my..DriverAssistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -306,6 +352,7 @@
 				0F6A5FD81DC33AD500B43CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

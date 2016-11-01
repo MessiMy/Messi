@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "WMBaiBaoXiangViewController.h"
+#import "WMBaoMingViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UIViewController *rootView = [[UIViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    WMBaoMingViewController *rootView = [[WMBaoMingViewController alloc] init];
     //rootView.view.backgroundColor = [UIColor blueColor];
-    self.window.rootViewController = rootView;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootView];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
     return YES;
