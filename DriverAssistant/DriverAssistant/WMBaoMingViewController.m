@@ -168,6 +168,7 @@
     [btn setTitle:@"查看更多驾校消息" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     btn.titleLabel.font = [UIFont systemFontOfSize:15];
+    
     btn.backgroundColor = [UIColor whiteColor];
     [btn addTarget:self action:@selector(Cliced:) forControlEvents:UIControlEventTouchUpInside];
     btn.highlighted = YES;
